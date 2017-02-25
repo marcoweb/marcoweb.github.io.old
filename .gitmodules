@@ -1,0 +1,3 @@
+[submodule "pelican-themes/marcoweb-pelican-theme"]
+	path = pelican-themes/marcoweb-pelican-theme
+	url = git@github.com:marcoweb/marcoweb-pelican-theme.git
