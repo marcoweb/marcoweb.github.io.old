@@ -6,6 +6,9 @@ AUTHOR = u'Marco Carvalho'
 SITENAME = u'MarcoWeb'
 SITEURL = ''
 
+#Theme
+HEADER_IMAGE = '/images/logo-header.png'
+
 PATH = 'content'
 
 TIMEZONE = 'America/Sao_Paulo'
