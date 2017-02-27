@@ -8,9 +8,11 @@ SITEURL = ''
 
 MENUITEMS = (
     ('Home', '/'),
-    ('Sobre', 'pages/about.html'),
+    #('Sobre', 'pages/about.html'),
     #('Area Para Alunos', '/pages/students.html'),
 )
+
+DISPLAY_PAGES_ON_MENU = True
 
 DISPLAY_CATEGORIES_ON_MENU = True
 
@@ -57,11 +59,16 @@ WIDGETS = {
     'podcasts'
 }
 SOCIAL_LINKS = {
-    'facebook': 'http://facebook.com/marcocarvalho.web',
-    'twitter': 'http://twitter.com/marcoweb',
-    'google-plus': 'google',
-    'github': 'github'
+    'facebook': 'https://www.facebook.com/marcocarvalho.web',
+    'twitter': 'https://twitter.com/mcarvalhoweb',
+    'google-plus': 'https://plus.google.com/u/0/+MarcoCarvalhoweb',
+    'github': 'https://github.com/marcoweb'
 }
 PODCASTS = {
-    'NerdCast': 'http://nerdcast.com.br'
+    'DatabaseCast': 'https://imasters.com.br/perfil/databasecast/',
+    'DevNaEstrada': 'http://devnaestrada.com.br/',
+    'Hipsters Ponto Tech': 'http://hipsters.tech/',
+    'Lambda3': 'https://blog.lambda3.com.br/tag/podcast/',
+    'NerdCast': 'https://jovemnerd.com.br/nerdcast/',
+    'Xadrez Verbal': 'https://xadrezverbal.com/'
 }
