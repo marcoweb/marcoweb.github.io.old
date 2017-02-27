@@ -6,8 +6,13 @@ AUTHOR = u'Marco Carvalho'
 SITENAME = u'MarcoWeb'
 SITEURL = ''
 
-#Theme
-HEADER_IMAGE = '/images/logo-header.png'
+MENUITEMS = (
+    ('Home', '/'),
+    ('Sobre', 'pages/about.html'),
+    #('Area Para Alunos', '/pages/students.html'),
+)
+
+DISPLAY_CATEGORIES_ON_MENU = True
 
 PATH = 'content'
 
@@ -34,7 +39,29 @@ SOCIAL = (('You can add links in your config file', '#'),
 
 DEFAULT_PAGINATION = 10
 
+DEFAULT_METADATA = {
+    'status': 'draft',
+}
+
+DELETE_OUTPUT_DIRECTORY = True
+
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
 THEME = 'pelican-themes/marcoweb-pelican-theme'
+
+# Theme Properties
+HEADER_IMAGE = '/images/logo-header.png'
+WIDGETS = {
+    'social',
+    'podcasts'
+}
+SOCIAL_LINKS = {
+    'facebook': 'http://facebook.com/marcocarvalho.web',
+    'twitter': 'http://twitter.com/marcoweb',
+    'google-plus': 'google',
+    'github': 'github'
+}
+PODCASTS = {
+    'NerdCast': 'http://nerdcast.com.br'
+}
