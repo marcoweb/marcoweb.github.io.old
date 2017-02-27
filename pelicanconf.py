@@ -37,10 +37,6 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 
 DEFAULT_PAGINATION = 10
 
-DEFAULT_METADATA = {
-    'status': 'draft',
-}
-
 DELETE_OUTPUT_DIRECTORY = True
 
 # Uncomment following line if you want document-relative URLs when developing
