@@ -10,7 +10,7 @@
     crossorigin="anonymous" />
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
     crossorigin="anonymous">
-    <link rel="stylesheet" href="theme/css/main.css" />     <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="MarcoWeb Full Atom Feed"
+    <link rel="stylesheet" href="/theme/css/main.css" />     <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="MarcoWeb Full Atom Feed"
     />        </head>
 
 <body id="index" class="home">
@@ -24,20 +24,15 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           </button>
-          <img src="/images/logo-header.png" />
+          <img src="/images/logo-header.png" />&nbsp;
       </div>
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-left">
           <li><a href="/">Home </a></li>
-          <li><a href="pages/about.html">Sobre </a></li>
+          <!-- Pages -->
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <!-- Categorias -->
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categorias <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-            </ul>
-          </li>
       </div>
     </div>
   </nav>
@@ -47,45 +42,59 @@
 <section id="content">
 <!-- <h2>Artigos</h2> -->
 
-<ol id="post-list">
+<ol class="list-unstyled" id="post-list">
 </ol><!-- /#posts-list -->
 </section><!-- /#content -->
       </div>
       <div class="col-sm-3 col-sm-offset-1">
         <div class="sidebar">
 <h4>Redes Sociais</h4>
-  <a href="http://twitter.com/marcoweb">
-    <span class="fa-stack fa-lg">
-      <i class="fa fa-square fa-stack-2x"></i>
-      <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-    </span>
-  </a>
-  <a href="github">
-    <span class="fa-stack fa-lg">
-      <i class="fa fa-square fa-stack-2x"></i>
-      <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-    </span>
-  </a>
-  <a href="http://facebook.com/marcocarvalho.web">
+  <span class="icon-link">
+  <a href="https://www.facebook.com/marcocarvalho.web" target="_blank">
     <span class="fa-stack fa-lg">
       <i class="fa fa-square fa-stack-2x"></i>
       <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
     </span>
   </a>
-  <a href="google">
+  </span>
+  <span class="icon-link">
+  <a href="https://github.com/marcoweb" target="_blank">
+    <span class="fa-stack fa-lg">
+      <i class="fa fa-square fa-stack-2x"></i>
+      <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+    </span>
+  </a>
+  </span>
+  <span class="icon-link">
+  <a href="https://plus.google.com/u/0/+MarcoCarvalhoweb" target="_blank">
     <span class="fa-stack fa-lg">
       <i class="fa fa-square fa-stack-2x"></i>
       <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
     </span>
   </a>
+  </span>
+  <span class="icon-link">
+  <a href="https://twitter.com/mcarvalhoweb" target="_blank">
+    <span class="fa-stack fa-lg">
+      <i class="fa fa-square fa-stack-2x"></i>
+      <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+    </span>
+  </a>
+  </span>
 <h4>Podcasts Recomendados</h4>
 <ol class="list-unstyled">
-    <li><a href="http://nerdcast.com.br">NerdCast</a></li>
+    <li><a href="https://imasters.com.br/perfil/databasecast/" target="_blank">DatabaseCast</a></li>
+    <li><a href="http://devnaestrada.com.br/" target="_blank">DevNaEstrada</a></li>
+    <li><a href="http://hipsters.tech/" target="_blank">Hipsters Ponto Tech</a></li>
+    <li><a href="https://blog.lambda3.com.br/tag/podcast/" target="_blank">Lambda3</a></li>
+    <li><a href="https://jovemnerd.com.br/nerdcast/" target="_blank">NerdCast</a></li>
+    <li><a href="https://xadrezverbal.com/" target="_blank">Xadrez Verbal</a></li>
 </ol>
         </div>
       </div>
     </div>
   </div>
+  <hr />
   <footer id="contentinfo" class="body">
     <address id="about" class="vcard body">
       Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
