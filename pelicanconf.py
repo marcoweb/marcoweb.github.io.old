@@ -37,7 +37,7 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 
 DEFAULT_PAGINATION = 10
 
-#DELETE_OUTPUT_DIRECTORY = True
+DELETE_OUTPUT_DIRECTORY = True
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
@@ -50,7 +50,7 @@ WIDGETS = {
     'social',
     'podcasts'
 }
-SOCIAL_LINKS = {
+SOCIAL = {
     'facebook': 'https://www.facebook.com/marcocarvalho.web',
     'twitter': 'https://twitter.com/mcarvalhoweb',
     'google-plus': 'https://plus.google.com/u/0/+MarcoCarvalhoweb',
