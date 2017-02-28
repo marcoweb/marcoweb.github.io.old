@@ -8,6 +8,26 @@ body {
   font-weight: bold;
 }
 
+.navbar .nav .active {
+    background-color: #1a1e21;
+}
+
+.navbar .nav .active > a,
+.navbar .nav .active > a:hover {  
+    color: #C0C0C0;    
+    background-color: #1a1e21;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    background-color: #1a1e21;
+    color: #C0C0C0;
+}
+
+ul.nav.navbar-nav .dropdown.open .dropdown-toggle{
+  color: #C0C0C0;
+  background-color: #1a1e21;
+}
+
 .icon-link a:hover {
   text-decoration: none;
 }
