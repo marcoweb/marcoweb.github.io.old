@@ -20,7 +20,7 @@ PATH = 'content'
 
 TIMEZONE = 'America/Sao_Paulo'
 
-DEFAULT_LANG = u'pt'
+DEFAULT_LANG = u'pt-br'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
