@@ -44,6 +44,8 @@ DELETE_OUTPUT_DIRECTORY = True
 
 THEME = 'pelican-themes/marcoweb-pelican-theme'
 
+DISQUS_SITENAME = "marcoweb"
+
 # Theme Properties
 HEADER_IMAGE = '/images/logo-header.png'
 WIDGETS = {
