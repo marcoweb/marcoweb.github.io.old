@@ -5,5 +5,3 @@ Category: Notícias
 Status: Published
 
 Esta página está em desenvolvimento. Logo estará disponível com conteúdos em Tecnologia da Informação.
-
-:)
